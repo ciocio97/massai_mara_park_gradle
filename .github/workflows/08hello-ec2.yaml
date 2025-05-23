@@ -21,7 +21,7 @@ jobs:
 
       - name: Test SSH connection
         env:
-          HOSTNAME: "192.168.127.129"
+          HOSTNAME: ubuntu
           USER_NAME: ubuntu
         run: |
           echo "SSH 연결 테스트 시작..."
